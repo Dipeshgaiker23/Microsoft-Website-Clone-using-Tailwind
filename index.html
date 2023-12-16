@@ -6,38 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <title>Microsoft - Cloud, Computers, Apps & more</title>
+    <style></style>
 </head>
 
 <body>
-    <div class="navbar flex justify-between items-center p-4">
-        <div class="flex justify-center items-center md:order-2">
-            <div class="hamburger inline-block pr-3 md:hidden">
-                <div class="line h-[1px] w-5 my-1 bg-black"></div>
-                <div class="line h-[1px] w-5 my-1 bg-black"></div>
-                <div class="line h-[1px] w-5 my-1 bg-black"></div>
+    <div class="maxwidthcontainer">
+        <div class="navbar flex justify-between items-center p-4">
+            <div class="flex justify-center items-center md:order-2">
+                <div class="hamburger inline-block pr-3 md:hidden">
+                    <div class="line h-[1px] w-5 my-1 bg-black"></div>
+                    <div class="line h-[1px] w-5 my-1 bg-black"></div>
+                    <div class="line h-[1px] w-5 my-1 bg-black"></div>
+                </div>
+                <div class="search md:hidden">
+                    Search
+                </div>
             </div>
-            <div class="search md:hidden">
-                Search
+            <div class="logo flex text-center md:order-1">
+                <div class="w-28">
+                    <img src="images/microsoft2.png" alt="">
+                </div>
+                <div
+                    class="features md:flex md:static md:translate-x-0 mx-4 md:space-x-2 bg-gray-100 md:bg-white w-fit absolute -translate-x-96">
+                    <div class="fitem">Microsoft 365</div>
+                    <div class="fitem">Teams</div>
+                    <div class="fitem">copilot</div>
+                    <div class="fitem">Windows</div>
+                    <div class="fitem">Surface</div>
+                    <div class="fitem">Xbox</div>
+                </div>
             </div>
-        </div>
-        <div class="logo flex text-center md:order-1">
-            <div>
-                Micrsoft
-            </div>
-            <div class="features md:flex md:static md:translate-x-0 mx-4 md:space-x-2 bg-gray-100 md:bg-white w-fit absolute -translate-x-96">
-                <div class="fitem">Microsoft 365</div>
-                <div class="fitem">Teams</div>
-                <div class="fitem">copilot</div>
-                <div class="fitem">Windows</div>
+
+            <div class="cart md:order-3 flex">
+                <div class="search hidden md:block">
+                    All Microsoft Search
+                </div>
+                <div class="ml-2">
+                    Account
+                </div>
             </div>
         </div>
 
-        <div class="cart md:order-3 flex">
-            <div class="search hidden md:block">
-                All Microsoft Search 
+        <div class="slidebar flex flex-col md:flex-row md:bg-[#f2f2f2] mx-2">
+            <div class="left ">
+
+                <img src="images/laptops.avif" alt="">
             </div>
-            <div class="ml-2">
-                Account
+            <div class="right flex flex-col justify-center ">
+                <h1 class="text-3xl mx-5 py-4">
+                    Surface Pro 9
+                </h1>
+                <p class="w mx-5">
+                    Tablet versatility and laptop power — all in one ultra-portable device
+                </p>
+                <button class="text-white bg-black px-4 py-2 font-bold w-28 mx-5 my-4">Shop now</button>
             </div>
         </div>
     </div>
